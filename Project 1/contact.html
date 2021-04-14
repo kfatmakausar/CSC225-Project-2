@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html">About Me</a> | <a href="/work.html">My Work</a> |
+        <a href="#"><b>Contact Me</b></a>
+      </nav>
+    </header>
+    <h1>Let's Get In Touch!</h1>
+    <form method="GET">
+      <p>
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          required
+          placeholder="Your first name..."
+        />
+      </p>
+      <p>
+        <label for="lastname">Last Name:</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          required
+          placeholder="Your last name..."
+        />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          required
+          placeholder="Your email address..."
+        />
+      </p>
+      Status:
+
+      <input type="radio" name="status" id="student" /><label for="student"
+        >Student</label
+      >
+
+      <input type="radio" name="status" id="employer" /><label for="employer"
+        >Employer</label
+      >
+
+      <input type="radio" name="status" id="other" /><label for="other"
+        >Other</label
+      >
+
+      <p>
+        <label for="field">Field of Study:</label>
+        <select required name="field" id="field">
+          <option value="">-Select Your Field of Study-</option>
+          <option value="Computer Science">Computer Science</option>
+          <option value="Information Technology">Information Technology</option>
+          <option value="Computer Engineering">Computer Engineering</option>
+          <option value="Other">Other</option>
+        </select>
+      </p>
+
+      <p>
+        Preferred Mode of Contact:
+        <input type="checkbox" name="contact" id="mail" value="mail" /><label
+          for="mail"
+          >Email</label
+        >
+        <input
+          type="checkbox"
+          name="contact"
+          id="meeting"
+          value="meeting"
+        /><label for="meeting">Schedule a Meeting</label>
+      </p>
+
+      <p>
+        <label for="message">Leave a message:</label>
+        <textarea
+          placeholder="Leave a message here..."
+          id="message"
+          name="message"
+          cols="20"
+          rows="10"
+        ></textarea>
+      </p>
+
+      <p>
+        <input type="submit" />
+      </p>
+    </form>
+  </body>
+</html>
