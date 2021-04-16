@@ -84,6 +84,75 @@
     <div class="jumbotron container" style="background-color: #ffefd5">
       <h1 class="display-4 mt-5">Checkout</h1>
       <hr class="my-4" />
+      <form method="GET">
+      <div class="card w-75">
+        <div class="card-body">
+          <h5 class="card-title">Shipping Address</h5>
+          <p class="card-text">
+            
+              <div class="form-group">
+                <label for="First Name">First Name</label>
+                <input type="firstname" name="firstname" class="form-control" id="firstname" aria-describedby="firstname" required>
+              </div>
+              <div class="form-group">
+                <label for="Last Name">Last Name</label>
+                <input type="lastname" name="lastname" class="form-control" id="lastname" aria-describedby="lastname" required>
+              </div>
+              <div class="form-group">
+                <label for="Address1">Address Line 1</label>
+                <input type="Address1" name="Address1" class="form-control" id="Address1" aria-describedby="Address1" required>
+              </div>
+              <div class="form-group">
+                <label for="Address2">Address Line 2 (optional)</label>
+                <input type="Address2" name="Address2" class="form-control" id="Address2" aria-describedby="Address2">
+              </div>
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="form-group">
+                    <label for="Zip">Zip</label>
+                    <input type="Zip" name="Zip" class="form-control" id="Zip" aria-describedby="Zip" required>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form-group">
+                    <label for="State">State</label>
+                    <input type="State" name="State" class="form-control" id="State" aria-describedby="State" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="City">City</label>
+                <input type="City" name="City" class="form-control" id="City" aria-describedby="City" required>
+              </div>
+              <div class="form-group">
+                <label for="Number">Phone Number</label>
+                <input type="Number" name="Number" class="form-control" id="Number" aria-describedby="Number" required>
+              </div>   
+          </p>
+        </div>
+      </div>
+      <div class="card w-75">
+        <div class="card-body">
+          <h5 class="card-title">Payment Information</h5>
+          <p class="card-text">
+              <div class="form-group">
+                <label for="Name on Card">Name on Card</label>
+                <input type="CCname" name="CCname" class="form-control" id="CCname" aria-describedby="CCname" required>
+              </div>
+              <div class="form-group">
+                <label for="Card Number">Card Number</label>
+                <input type="CCnum" name="CCnum" class="form-control" id="CCnum" aria-describedby="CCnum" required>
+              </div>
+              <div class="form-group">
+                <label for="Expiration Date">Expiration Date</label>
+                <input type="month" name="date" class="form-control" id="start" min="2018-03" required>
+              </div>
+          </p>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-danger btn-lg mt-3">Place Order</button>
+      <!-- <button type="submit" class="btn btn btn-outline-danger btn-lg mt-3 text-white"><a href="/thankyou.html">Submit</a></button> -->
+    </form>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
