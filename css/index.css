@@ -13,3 +13,20 @@
 .jumbotron {
   background-color: #ffb6c1;
 }
+
+nav {
+  font-family: "Original Surfer", cursive;
+  font-size: x-large;
+}
+
+h1 {
+  font-family: "Merienda", cursive;
+}
+
+p {
+  font-family: "Mali", cursive;
+}
+
+.btn {
+  font-family: "Fredericka the Great", cursive;
+}
